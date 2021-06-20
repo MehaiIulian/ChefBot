@@ -1,0 +1,44 @@
+{"intents": [
+        {"tag": "meniu",
+         "patterns": ["meniu","vreau inapoi la meniu", "te rog du-ma iar la meniu", "pot sa ma intorc inapoi?", "inapoi la meniu", "poti sa-mi arati si celelalte retete?", "pot sa mai vad celelalte retete?", "inapoi?", "vreau sa ma intorc iar la meniu", "m-am razgandit vreau inapoi"],
+         "responses": ["Bine ai venit(revenit) la meniu! Aici sunt retetele:"],
+         "context_set": ""
+        },
+        {"tag": "ingrediente",
+         "patterns": ["ingrediente", "poti sa-mi arati ingredientele necesare?", "care ingredientele?", "ce trebuie sa cumpar?","ce trebuie sa iau?","de ce produce am nevoie?","produse", "produse necesare?", "imi poti face o lista de cumparaturi?", "ce-mi trebuie?", "doresc sa vad o lista de cumparaturi?"],
+         "responses": ["Acestea sunt ingredientele necesare:","Acestea sunt ingredientele de care ai nevoie:","Ingredientele pentru cumparaturi:"],
+         "context_set": ""
+        },
+        {"tag": "instructiuni",
+         "patterns": ["instructiuni","poti sa-mi zici pasii?","pasii?", "pasii de pregatit reteta?","care pasii","ce trebuie sa fac?", "care sunt pasii?", "poti sa-mi spui instructiunile pentru a pregati reteta?", "cum o gatesc?", "cum o fac?", "cum o pregatesc?","pasi de pregatire a retetei","cum fac reteta?"],
+         "responses": ["Acestea sunt instructiunile:","Acestia sunt pasii:","Acestia sunt pasii:"],
+         "context_set": ""
+        },
+        {"tag": "inceput",
+         "patterns": ["poti sa ma intorc la inceput?","de la inceput","voiam sa zic ca sunt vegetarian","am gresit","vreau sa vad optiunile vegetariene","alte retete", "pot sa pun iar ingredientele?", "pot sa incep de la inceput?", "lasa-ma sa pun alte ingrediente", "du-te la inceput", "noua cautare?", "pot sa fac o cautare noua?", "inceput"],
+         "responses": ["Aici poti incepe o sesiune  noua:"],
+         "context_set": ""
+        },
+        {"tag": "nutritie",
+         "patterns": ["nutritie","calorii?", "carbohidrati?", "grasimi?", "?proteine", "cat de sanatoasa este","este sanatoasa?","nutritia?","valorile nutritionale","cat de sanatoasa e mancarea?","care nutrientii?","nutrientii?","este sanatoasa?","cate proteine?","cati carbohidrati?","cata grasime?","cate calorii are reteta?"],
+         "responses": ["Nutritia retetei:", "Valorile nutritionale sunt:"],
+         "context_set": ""
+        },
+        {"tag": "multumesc",
+         "patterns": ["multumesc", "mersi", "super", "tare", "iti multumesc", "multumesc frumos", "sunt multumit", "mi-a parut bine"],
+         "responses": ["Cu placere! Sper sa-ti placa reteta!", "Cu drag, sper ca ti-am fost de ajutor!"],
+         "context_set": ""
+        },
+        {"tag": "vegetarian",
+         "patterns": ["vegetarian", "sunt vegetarian", "eu sunt vegetarian", "da,sunt vegetarian", "optiuni vegetariane","ma intereseaeza ceva vegetarian", "numai vegetarian"],
+         "responses": ["Aici ai optiunile vegetariene:"],
+         "context_set": ""
+        },
+        {"tag": "echipament",
+        "patterns": ["echipament", "de ce echipament am nevoie","care este echipamentul", "din bucatarie ce pot folosi", "ce trebuie sa am in bucatarie", "echipamentul de bucatarie necesar","echipamentul necesar"],
+        "responses": ["Vei avea nevoie de:","Echipamentul necesar este:", "Iti va trebui"],
+          "context_set": ""
+        }
+
+   ]
+}
