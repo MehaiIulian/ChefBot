@@ -115,7 +115,7 @@ class ChatBot(Thread):
 
     # -------------------------------------------------------------------------------------------- pana aici a fost ml
     # pentru apelari la spooncular API
-    key = "bb238c76bf8e4034829176f6fbd152ca"
+    key = ""
     baseUrl = "https://api.spoonacular.com/recipes/"
 
     # Vectori pentru a tine minte retetele
